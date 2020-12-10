@@ -15,5 +15,3 @@ WORKDIR /home/node/app/pa11y-dashboard
 COPY production.json ./config/production.json
 
 CMD NODE_ENV=production node index.js
-
-# add a volume for mongo storage or replace with cloud
