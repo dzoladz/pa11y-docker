@@ -11,10 +11,12 @@
 From the command line:
 - [ ] Install `make`
   - **Windows** `choco install make`
-  - **macOS** `brew install make`
+  - **macOS** `brew install coreutils`
 - [ ] Install `git`
   - **Windows** `choco install git`
   - **macOS** `brew install git`
+  
+ On macOS, you'll also need to ensure Xcode Developer Tools are available: `xcode-select --install`
 
 ## Install, Build, and Run the App
 1. Clone the repository, run `git clone https://github.com/dzoladz/pa11y-docker.git`
