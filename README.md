@@ -7,17 +7,19 @@
 - [ ] Install a package manager
   - **Windows**, use [Chocolatey](https://chocolatey.org/)
   - **macOS**, use [Homebrew](https://brew.sh/)
+  
+From the command line:
 - [ ] Install `make`
-  - **Windows**, use `choco install make`
-  - **macOS**, use `brew install make`
+  - **Windows** `choco install make`
+  - **macOS** `brew install make`
 - [ ] Install `git`
   - **Windows** `choco install git`
   - **macOS** `brew install git`
 
-## Getting Started
-1. Clone `git clone https://github.com/dzoladz/pa11y-docker.git`
-2. Enter directory `cd pa11y-docker`
-3. Build `make build`
-4. start app `make start`
+## Install, Build, and Run the App
+1. Clone the repository, run `git clone https://github.com/dzoladz/pa11y-docker.git`
+2. Enter project directory, run `cd pa11y-docker`
+3. Build the Pa11y app, run `make build`
+4. Start the app, run `make start`
 
 Once you see terminal output from `web_1` and `database_1`, Pa11y Dashboard should be ready to go. Navigate to [http://localhost:80](http://localhost:80) in your browser, and you should see the Pa11y Dashboard welcome screen.
